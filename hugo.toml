@@ -1,0 +1,4 @@
+baseURL = 'http://mpbsd.github.io/profile/'
+languageCode = 'en-us'
+title = 'Marcelo Bezerra'
+theme = 'PaperMod'

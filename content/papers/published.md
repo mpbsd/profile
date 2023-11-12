@@ -3,7 +3,8 @@ title: "Published Papers"
 date: 2023-11-11T15:11:54-03:00
 draft: false
 ---
-Here's the complete list of my publications, sorted by date of publication:
+Here's the complete list of my publications so far, sorted by date of
+publication:
 
 - 2012-02-02 [Conjugacy expansiveness in finite groups][]
 - 2018-06-14 [Invariant solutions for the Einstein field equation][]

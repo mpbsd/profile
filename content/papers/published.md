@@ -6,14 +6,14 @@ draft: false
 Here's the complete list of my publications so far, sorted by date of
 publication:
 
-- 2012-02-02 [Conjugacy expansiveness in finite groups][]
-- 2018-06-14 [Invariant solutions for the Einstein field equation][]
-- 2019-05-01 [On warped product gradient Yamabe solitons][]
-- 2022-02-02 [On finslerian warped product gradient yamabe solitons][]
-- 2022-06-01 [The nonexistence of gradient almost Ricci solitons warped product][]
-- 2022-11-02 [Triviality results for k-Yamabe solitons][]
-- 2023-02-16 [Rigidity results for Riemann and Schouten solitons][]
-- 2023-06-19 [Properties of Warped Product Gradient Yamabe Solitons][] 
+- [Conjugacy expansiveness in finite groups][]
+- [Invariant solutions for the Einstein field equation][]
+- [On warped product gradient Yamabe solitons][]
+- [On finslerian warped product gradient yamabe solitons][]
+- [The nonexistence of gradient almost Ricci solitons warped product][]
+- [Triviality results for k-Yamabe solitons][]
+- [Rigidity results for Riemann and Schouten solitons][]
+- [Properties of Warped Product Gradient Yamabe Solitons][] 
 
 [Conjugacy expansiveness in finite groups]: https://www.degruyter.com/document/doi/10.1515/jgt-2012-0004/html
 [Invariant solutions for the Einstein field equation]: https://pubs.aip.org/aip/jmp/article-abstract/59/6/062501/985408/Invariant-solutions-for-the-Einstein-field?redirectedFrom=fulltext

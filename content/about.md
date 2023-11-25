@@ -21,4 +21,4 @@ CEP: 74.001-970
 ## Contact
 
 **E-Mail**: bezerra [ at ] ufg.br    
-**Phone number**: +55 62 3521 12 08
+**Phone**: +55 62 3521 12 08

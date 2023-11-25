@@ -1,40 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TeXify</title>
-    <link>https://mpbsd.github.io/profile/</link>
-    <description>Recent content on TeXify</description>
+    <title>Posts on TeXify</title>
+    <link>https://mpbsd.github.io/profile/post/</link>
+    <description>Recent content in Posts on TeXify</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bezerra@ufg.br (Marcelo Bezerra)</managingEditor>
     <webMaster>bezerra@ufg.br (Marcelo Bezerra)</webMaster>
-    <lastBuildDate>Sat, 11 Nov 2023 15:11:54 -0300</lastBuildDate><atom:link href="https://mpbsd.github.io/profile/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://mpbsd.github.io/profile/about/</link>
-      <pubDate>Sat, 25 Nov 2023 10:59:16 -0300</pubDate>
-      <author>bezerra@ufg.br (Marcelo Bezerra)</author>
-      <guid>https://mpbsd.github.io/profile/about/</guid>
-      
-      <description>&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Differential Geometry&lt;/li&gt;
-&lt;li&gt;Group Theory&lt;/li&gt;
-&lt;li&gt;Symmetry&lt;/li&gt;
-&lt;li&gt;Dynamics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;address&#34;&gt;Address&lt;/h2&gt;
-&lt;p&gt;Universidade Federal de Goiás&lt;br&gt;
-Instituto de Matemática e Estatística&lt;br&gt;
-Campus Samambaia, R. Jacarandá, Chácaras Califórnia, Goiânia - Goiás &lt;br&gt;
-CEP: 74.001-970&lt;/p&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;E-Mail&lt;/strong&gt;: bezerra [ at ] ufg.br &lt;br&gt;
-&lt;strong&gt;Phone number&lt;/strong&gt;: +55 62 3521 12 08&lt;/p&gt;
-</description>
-      
-    </item>
-    
+    <lastBuildDate>Sat, 11 Nov 2023 15:11:54 -0300</lastBuildDate><atom:link href="https://mpbsd.github.io/profile/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Published Papers</title>
       <link>https://mpbsd.github.io/profile/post/published/</link>

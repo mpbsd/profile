@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mpbsd.github.io/profile/sitemap.xml

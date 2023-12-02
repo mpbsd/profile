@@ -23,26 +23,26 @@ name = "Marcelo Bezerra" # your name
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.goldmark.renderer]
-unsafe = true # enable html in markdown
+unsafe = false # enable html in markdown
 [markup.highlight]
-style = "emacs" # syntax highlight style, see https://xyproto.github.io/splash/docs/
+style = "solarized-dark" # syntax highlight style, see https://xyproto.github.io/splash/docs/
 
 # https://gohugo.io/content-management/menus/
 [[menu.main]]
-identifier = "post" # section id
-name = "Post"       # section display title
-url = "/"           # path to the section
-weight = 1          # order of sections
+identifier    = "post" # section id
+name          = "Post"       # section display title
+url           = "/"           # path to the section
+weight        = 1          # order of sections
 [[menu.main]]
-identifier = "archives"
-name = "Archives"
-url = "/post/"
-weight = 2
+identifier    = "archives"
+name          = "Archives"
+url           = "/post/"
+weight        = 2
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
+identifier    = "about"
+name          = "About"
+url           = "/about/"
+weight        = 3
 
 # https://gohugo.io/content-management/taxonomies#configure-taxonomies
 [taxonomies]

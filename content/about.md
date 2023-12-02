@@ -15,10 +15,10 @@ draft: false
 
 Universidade Federal de Goiás   
 Instituto de Matemática e Estatística   
-Campus Samambaia, R. Jacarandá, Chácaras Califórnia, Goiânia - Goiás    
-CEP: 74.001-970
+Campus Samambaia - R. Jacarandá - Chácaras Califórnia   
+Goiânia - Goiás, CEP: 74.001-970
 
 ## Contact
 
-**E-Mail**: bezerra [ at ] ufg.br    
-**Phone**: +55 62 3521 12 08
+**E-Mail** bezerra [ at ] ufg.br    
+**Phone**  +55 62 3521 12 08

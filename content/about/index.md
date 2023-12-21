@@ -3,13 +3,10 @@ title: "About Me"
 date: 2023-11-25T10:59:16-03:00
 draft: false
 ---
-
 ## Research Interests
 
 - Differential Geometry
 - Group Theory
-- Symmetry
-- Dynamics
 
 ## Address
 
@@ -21,4 +18,4 @@ Goiânia - Goiás, CEP: 74.001-970
 ## Contact
 
 **E-Mail** bezerra [ at ] ufg.br    
-**Phone**  +55 62 3521 12 08
+**ORCID**  0000-0003-4258-4676   

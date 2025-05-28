@@ -6,7 +6,6 @@ draft: false
 ## Research Interests
 
 - Differential Geometry
-- Group Theory
 
 ## Address
 

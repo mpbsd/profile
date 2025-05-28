@@ -14,6 +14,7 @@ publication:
 - [Triviality results for k-Yamabe solitons][]
 - [Rigidity results for Riemann and Schouten solitons][]
 - [Properties of Warped Product Gradient Yamabe Solitons][] 
+- [Classification of gradient Yamabe soliton hypersurfaces of space forms][]
 
 [Conjugacy expansiveness in finite groups]: https://www.degruyter.com/document/doi/10.1515/jgt-2012-0004/html
 [Invariant solutions for the Einstein field equation]: https://pubs.aip.org/aip/jmp/article-abstract/59/6/062501/985408/Invariant-solutions-for-the-Einstein-field?redirectedFrom=fulltext
@@ -23,3 +24,4 @@ publication:
 [Triviality results for k-Yamabe solitons]: https://link.springer.com/article/10.1007/s00013-022-01795-1
 [Rigidity results for Riemann and Schouten solitons]: https://link.springer.com/article/10.1007/s00009-023-02319-z
 [Properties of Warped Product Gradient Yamabe Solitons]: https://link.springer.com/article/10.1007/s00009-023-02451-w
+[Classification of gradient Yamabe soliton hypersurfaces of space forms]: https://link.springer.com/article/10.1007/s00229-025-01631-0

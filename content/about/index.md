@@ -16,5 +16,5 @@ Goiânia - Goiás, CEP: 74.001-970
 
 ## Contact
 
-**E-Mail** bezerra [ at ] ufg.br    
+**EMail** bezerra [ at ] ufg [ dot ] br   
 **ORCID**  0000-0003-4258-4676   

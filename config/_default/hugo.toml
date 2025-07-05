@@ -1,4 +1,4 @@
-baseurl = "https://mpbsd.github.io/profile/posts"
+baseurl = "https://mpbsd.github.io/profile/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -77,7 +77,7 @@ pagination.pagerSize = 5
     title = "Marcelo Bezerra Barboza"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "My profile"
       owner = ""
       keywords = ""
       copyright = ""
@@ -93,7 +93,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Marcelo Bezerra Barboza"
-        logoHomeLink = "https://mpbsd.github.io/profile/posts"
+        logoHomeLink = "https://mpbsd.github.io/profile/"
 
       [languages.en.menu]
         [[languages.en.menu.main]]

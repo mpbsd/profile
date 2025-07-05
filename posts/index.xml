@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Marcelo Bezerra Barboza</title>
-    <link>https://mpbsd.github.io/profile/posts/posts/</link>
+    <link>https://mpbsd.github.io/profile/posts/</link>
     <description>Recent content in Posts on Marcelo Bezerra Barboza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Nov 2023 15:11:54 -0300</lastBuildDate><atom:link href="https://mpbsd.github.io/profile/posts/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Nov 2023 15:11:54 -0300</lastBuildDate><atom:link href="https://mpbsd.github.io/profile/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Published Papers</title>
-      <link>https://mpbsd.github.io/profile/posts/posts/papers/published/</link>
+      <link>https://mpbsd.github.io/profile/posts/papers/published/</link>
       <pubDate>Sat, 11 Nov 2023 15:11:54 -0300</pubDate>
       
-      <guid>https://mpbsd.github.io/profile/posts/posts/papers/published/</guid>
+      <guid>https://mpbsd.github.io/profile/posts/papers/published/</guid>
       <description>Here&amp;rsquo;s the complete list of my publications so far, sorted by date of publication:
 Conjugacy expansiveness in finite groups Invariant solutions for the Einstein field equation On warped product gradient Yamabe solitons On finslerian warped product gradient yamabe solitons The nonexistence of gradient almost Ricci solitons warped product Triviality results for k-Yamabe solitons Rigidity results for Riemann and Schouten solitons Properties of Warped Product Gradient Yamabe Solitons Classification of gradient Yamabe soliton hypersurfaces of space forms </description>
     </item>

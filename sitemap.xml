@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mpbsd.github.io/profile/posts/about/</loc>
+    <loc>https://mpbsd.github.io/profile/about/</loc>
     <lastmod>2023-11-25T10:59:16-03:00</lastmod>
+  </url><url>
+    <loc>https://mpbsd.github.io/profile/</loc>
+    <lastmod>2023-11-11T15:11:54-03:00</lastmod>
   </url><url>
     <loc>https://mpbsd.github.io/profile/posts/</loc>
     <lastmod>2023-11-11T15:11:54-03:00</lastmod>
   </url><url>
-    <loc>https://mpbsd.github.io/profile/posts/posts/</loc>
+    <loc>https://mpbsd.github.io/profile/posts/papers/published/</loc>
     <lastmod>2023-11-11T15:11:54-03:00</lastmod>
   </url><url>
-    <loc>https://mpbsd.github.io/profile/posts/posts/papers/published/</loc>
-    <lastmod>2023-11-11T15:11:54-03:00</lastmod>
+    <loc>https://mpbsd.github.io/profile/categories/</loc>
   </url><url>
-    <loc>https://mpbsd.github.io/profile/posts/categories/</loc>
-  </url><url>
-    <loc>https://mpbsd.github.io/profile/posts/tags/</loc>
+    <loc>https://mpbsd.github.io/profile/tags/</loc>
   </url>
 </urlset>

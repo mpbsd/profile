@@ -3,17 +3,33 @@ title: "Published Papers"
 date: 2023-11-11T15:11:54-03:00
 draft: false
 ---
-Here's the complete list of my publications so far, sorted by date of
-publication:
+Here's the complete list of my publications so far:
+
+## 2012
 
 - [Conjugacy expansiveness in finite groups][]
+
+## 2018
+
 - [Invariant solutions for the Einstein field equation][]
+
+## 2019
+
 - [On warped product gradient Yamabe solitons][]
+
+## 2022
+
 - [On finslerian warped product gradient yamabe solitons][]
 - [The nonexistence of gradient almost Ricci solitons warped product][]
 - [Triviality results for k-Yamabe solitons][]
+
+## 2023
+
 - [Rigidity results for Riemann and Schouten solitons][]
 - [Properties of Warped Product Gradient Yamabe Solitons][] 
+
+## 2025
+
 - [Classification of gradient Yamabe soliton hypersurfaces of space forms][]
 
 [Conjugacy expansiveness in finite groups]: https://www.degruyter.com/document/doi/10.1515/jgt-2012-0004/html

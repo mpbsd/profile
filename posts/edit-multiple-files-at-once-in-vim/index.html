@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Edit Multiple Files at Once With Vim :: Marcelo Bezerra Barboza</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Just the other day I engaged in an interesting project with my family. We grabbed the data about this TV Show from IMDb in order to create:
+A PostgreSQL database A presentation in LaTeX, with the Beamer document class A statically generated web site with Hugo Once the database was ready everything else was relatively easy thanks to Vim. For instance, to create the presentation we dumped a csv file from our database like this:" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://mpbsd.github.io/profile/posts/edit-multiple-files-at-once-in-vim/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://mpbsd.github.io/profile/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://mpbsd.github.io/profile/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://mpbsd.github.io/profile/favicon.png">
+<link rel="apple-touch-icon" href="https://mpbsd.github.io/profile/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Edit Multiple Files at Once With Vim">
+<meta property="og:description" content="Just the other day I engaged in an interesting project with my family. We grabbed the data about this TV Show from IMDb in order to create:
+A PostgreSQL database A presentation in LaTeX, with the Beamer document class A statically generated web site with Hugo Once the database was ready everything else was relatively easy thanks to Vim. For instance, to create the presentation we dumped a csv file from our database like this:" />
+<meta property="og:url" content="https://mpbsd.github.io/profile/posts/edit-multiple-files-at-once-in-vim/" />
+<meta property="og:site_name" content="Marcelo Bezerra Barboza" />
+
+  <meta property="og:image" content="https://mpbsd.github.io/profile/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-07-25 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://mpbsd.github.io/profile/">
+  <div class="logo">
+    Marcelo Bezerra Barboza
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/profile/about">About</a></li>
+        
+      
+        
+          <li><a href="/profile/posts">Posts</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/profile/about" >About</a></li>
+        
+      
+        
+          <li><a href="/profile/posts" >Posts</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://mpbsd.github.io/profile/posts/edit-multiple-files-at-once-in-vim/">Edit Multiple Files at Once With Vim</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-07-25</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://mpbsd.github.io/profile/tags/plain-text/">plain text</a>&nbsp;
+      
+      #<a href="https://mpbsd.github.io/profile/tags/multiple-files-editing/">multiple files editing</a>&nbsp;
+      
+      #<a href="https://mpbsd.github.io/profile/tags/vim/">Vim</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Just the other day I engaged in an interesting project with my family. We grabbed the data about this TV Show from IMDb in order to create:</p>
+<ol>
+<li>A <a href="https://postgresql.org">PostgreSQL</a> database</li>
+<li>A presentation in <a href="https://latex-project.org">LaTeX</a>, with the <a href="https://ctan.org/pkg/beamer">Beamer</a> document class</li>
+<li>A statically generated web site with <a href="https://gohubo.io">Hugo</a></li>
+</ol>
+<p>Once the database was ready everything else was relatively easy thanks to <a href="https://www.vim.org">Vim</a>. For instance, to create the presentation we dumped a <code>csv</code> file from our database like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-postgresql" data-lang="postgresql"><span class="line"><span class="cl"><span class="p">(</span><span class="n">your</span> <span class="k">database</span> <span class="k">name</span><span class="p">)</span><span class="o">=&gt;</span> <span class="err">\</span><span class="k">copy</span> <span class="p">(</span><span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">episode</span><span class="p">)</span> <span class="k">to</span> <span class="n">main</span><span class="mf">.</span><span class="n">tex</span> <span class="k">csv</span> <span class="k">delimiter</span> <span class="s1">&#39;;&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><p>Since the fields had the following meaning:</p>
+<pre tabindex="0"><code class="language-csv" data-lang="csv">episode id;title;synopsis;release date;rate;votes
+</code></pre><p>we felt that an indeed very long substitute command will do the trick:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="p">:</span>%<span class="nx">s</span><span class="sr">/^\([^;]\+\);\([^;]\+\);\([^;]\+\);\([^;]\+\);\([^;]\+\);\([^;]\+\)$/</span>\\<span class="nx">begin</span>{<span class="nx">frame</span>}{\<span class="m">2</span>}\<span class="nx">r</span>\\<span class="nx">begin</span>{<span class="nx">table</span>}\<span class="nx">r</span>\\<span class="nx">centering</span>\<span class="nx">r</span>\\<span class="nx">begin</span>{<span class="nx">tabular</span>}{<span class="nx">llll</span>}\<span class="nx">r</span>\\<span class="nx">textbf</span>{<span class="nx">Episode</span>} \&amp; \\<span class="nx">texttt</span>{\<span class="m">1</span>} \&amp; \\<span class="nx">textbf</span>{<span class="nx">Votes</span>} \&amp; \\<span class="nx">texttt</span>{\<span class="m">6</span>} \\\\\<span class="nx">r</span>\\<span class="nx">textbf</span>{<span class="nx">Release</span>} \&amp; \\<span class="nx">texttt</span>{\<span class="m">4</span>} \&amp; \\<span class="nx">textbf</span>{<span class="nx">Rate</span>} \&amp; \\<span class="nx">texttt</span>{\<span class="m">5</span>}\<span class="nx">r</span>\\<span class="nx">end</span>{<span class="nx">tabular</span>}\<span class="nx">r</span>\\<span class="nx">end</span>{<span class="nx">table</span>}\<span class="nx">r</span>\\<span class="nx">begin</span>{<span class="nx">synopsys</span>}\<span class="nx">r</span>\<span class="m">3</span>\<span class="nx">r</span>\\<span class="nx">end</span>{<span class="nx">synopsys</span>}\<span class="nx">r</span>\\<span class="nx">end</span>{<span class="nx">frame</span>}\<span class="nx">r</span>/<span class="err">
+</span></span></span></code></pre></div><p>And just like that the frames for all 217 episodes were created. We then added a minimal preamble to the document containing that custom environment we called <code>synopsis</code>. Next we formatted the <a href="https://latex-project.org">LaTeX</a> source code with the normal mode command <code>gg=G</code>, saved and compiled it in order to produce a <code>PDF</code> file.</p>
+<p>Having accomplished the second of our tasks it was time to create that statically generated website. With <a href="https://gohubo.io">Hugo</a> it was as easy as running the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ hugo new site mywebsite
+</span></span></code></pre></div><p>Then we installed a <a href="https://themes.gohugo.io">theme for Hugo</a>. The next thing to do was to create the content for our website. Remember that <code>csv</code> file that we dumped from our database in the last step? Well, we saved a duplicate of it our downloads folder. We then used a <a href="https://python.org">Python</a> script to create one blog post for each row in the <code>csv</code> file. This step was necessary because we wanted corresponding blog posts and episodes to have matching published and released dates. The internals of such a script doesn&rsquo;t matter right now, suffices it to say that it saves each post on disk to a file named after the primary key of the corresponding episode in our database as this will play an important role in the concluding part of our approach.</p>
+<p>It was when we ran the command <code>hugo server -D</code> so that we could have a glimpse of how things were looking so far that we noticed something very interesting: the posts were listed in reverse chronological order. Makes sense, right? To sort our posts from the most recent ones to the older ones, except that in our case we wanted the posts to be listed in chronological order so that it matches our thinking process. After reading the manuals we found that <a href="https://gohubo.io">Hugo</a> sorts posts by something it calls <code>weight</code>. It must be an integer, with lower values taking precedence over lower ones. If it doesn&rsquo;t find a weight to a post it then sorts it by the date in which it was published, finally falling back to the filename on disk (order not guaranteed). The ordinal of an episode would be a perfect fit for this, don&rsquo;t you think? Here&rsquo;s the thing though: how do we add a weight entry to the metadata on every post with the least possible effort? Do you remember dealing with <code>argc</code> and <code>argv</code> from your <code>C</code> programming classes? Well, the files you open at runtime in <a href="https://www.vim.org">Vim</a> populate a list called argv and argc is simply the cardinality of such list. So, we opened all posts using a wildcard:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ vim content/posts/*.md
+</span></span></code></pre></div><p>Then we ran the ex command <code>echo argc()</code> in order to check whether we had correctly loaded all files in memory or not and, as expected, it greeted us with the number 217. Now, to insert a weight entry right after the title one in the metadata we did the following:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="p">:</span><span class="nx">argdo</span> <span class="nx">g</span><span class="sr">/^title:/</span><span class="nx">s</span><span class="sr">/$/</span>\<span class="nx">rweight</span>: <span class="m">0</span>/<span class="err">
+</span></span></span></code></pre></div><p>As you might have guessed that argdo command means we are iterating through the argv list, one buffer after another. The only missing part is the weight itself, which we updated with the following command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="p">:</span><span class="nx">argdo</span> <span class="nx">g</span><span class="sr">/^weight:/</span><span class="nx">s</span><span class="sr">/0$/</span>\<span class="p">=</span><span class="nx">bufnr</span><span class="p">()</span>/ <span class="p">|</span> <span class="nx">update</span><span class="err">
+</span></span></span></code></pre></div><p>That <code>\=</code> in the substitution pattern means that what follows next is an expression. Roughly speaking, we can do math with it in our substitution patterns. In this case, we simply inserted the ordinal number for the episode into the metadata. Go ahead and ask me: But this weight of yours, doesn&rsquo;t it correspond to the order in which the buffer appears in Vim&rsquo;s argv list? I&rsquo;m glad you asked. YES! You see, that&rsquo;s why I name my episodes like <code>S01E01</code>, meaning the first episode of the first season, <code>S01E02</code> meaning the second episode of the first season, and so on.</p>
+<p>I hope you see a pattern going on here: the unix philosophy, plain text files, REGEXP&rsquo;s and a good text editor.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="https://mpbsd.github.io/profile/posts/papers/published/" class="button inline next">
+         [<span class="button__text">Published Papers</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    
+  
+</div>
+
+</body>
+</html>

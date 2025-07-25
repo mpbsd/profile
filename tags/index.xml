@@ -5,6 +5,34 @@
     <link>https://mpbsd.github.io/profile/tags/</link>
     <description>Recent content in Tags on Marcelo Bezerra Barboza</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mpbsd.github.io/profile/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mpbsd.github.io/profile/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>multiple files editing</title>
+      <link>https://mpbsd.github.io/profile/tags/multiple-files-editing/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpbsd.github.io/profile/tags/multiple-files-editing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plain text</title>
+      <link>https://mpbsd.github.io/profile/tags/plain-text/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpbsd.github.io/profile/tags/plain-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>https://mpbsd.github.io/profile/tags/vim/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://mpbsd.github.io/profile/tags/vim/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

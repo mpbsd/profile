@@ -2,7 +2,7 @@
 title: "Edit Multiple Files at Once With Vim"
 date: "2025-07-25"
 tags: ["plain text", "multiple files editing", "Vim"]
-draft: true
+draft: false
 ---
 
 Just the other day I engaged in an interesting project with my family. We grabbed the data about this TV Show from IMDb in order to create:

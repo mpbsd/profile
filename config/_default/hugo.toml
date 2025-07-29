@@ -8,12 +8,9 @@ pagination.pagerSize = 5
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 2
-  showLanguageSelector = false
-  fullWidthTheme = false
+  showMenuItems = 4
+  fullWidthTheme = true
   centerTheme = true
-  autoCover = true
-  showLastUpdated = false
 
 [languages]
   [languages.en]

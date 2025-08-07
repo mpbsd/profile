@@ -8,7 +8,7 @@ draft: false
 Just the other day I engaged in an interesting project with my family. We grabbed the data about this TV Show from IMDb in order to create:
 
 1. A [PostgreSQL][] database
-2. A presentation in [LaTeX][], with the [Beamer][] document class
+2. A presentation in [LaTeX][] using the [Beamer][] document class
 3. A statically generated web site with [Hugo][]
 
 Once the database was ready everything else was relatively easy thanks to [Vim][]. For instance, to create the presentation we dumped a `csv` file from our database like this:

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/profile/posts/edit-multiple-files-at-once-in-vim/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/tags/multiple-files-editing/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/tags/plain-text-files/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/posts/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/tags/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/tags/vim-text-editor/</loc>
+    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/about/</loc>
+    <lastmod>2023-11-25T10:59:16-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/posts/papers/published/</loc>
+    <lastmod>2023-11-11T15:11:54-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/profile/categories/</loc>
+  </url>
+</urlset>
